@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 520px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #c7b79f;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #2e2e2e;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.inputVal{
+    padding : 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-bottom: 20px;
+}
+
+#convert {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin:30px;;
+}
